@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+input {
+  border: 2px solid coral;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+
+input::placeholder {
+  color: #707070;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  border: 2px solid greenyellow;
+  background-color: lightgreen;
+  color: black;
+}
