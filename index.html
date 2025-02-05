@@ -4,26 +4,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>V0LUM1US</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <h1>Vergleiche 2 unterschiedliche Volumen und erhalte den Größenunterschied in Prozent</h1>
-  <h3>Kugel <---> Halbkugel</h3>
-  <input type="text" id="r1" placeholder="Radius der Kugel"> : <input type="text" id="r2" placeholder="Radius der Halbkugel">
-  <h3>Kugel <---> Kegel</h3>
-  <input type="text" id="r3" placeholder="Radius der Kugel"> : <input type="text" id="r4" placeholder="Radius des Kegels"> : <input type="text" id="h1" placeholder="Höhe des Kegels">
-  <h3>Kugel <---> Pyramide</h3>
-  <input type="text" id="r5" placeholder="Radius der Kugel"> : <input type="text" id="r6" placeholder="Flächeninhalt des Bodens Pyramide"> : <input type="text" id="h2" placeholder="Höhe der Pyramide">
-<br>
+  Körper1: <input required type="text" placeholder="Körper 1" id="input1"> <h4>(Zylinder, Kegel, Kugel, Würfel, Quader, Pyramide)</h4>
   <br>
-  <button onclick="berechnen()">Berechnen</button>
-  <p id="ausgabe"></p>
-  <p id="ausgabe2"></p>
-  <p id="ausgabe3"></p>
-  <p id="ausgabe4"></p>
-  
+  <h5>(Maße in cm)</h5>
+  <br>
+  Körper2: <input required type="text" placeholder="Körper 2" id="input2"> <h4>(Zylinder, Kegel, Kugel, Würfel, Quader, Pyramide)</h4>
+  <br> 
+  <h5>(Maße in cm)</h5>
+  <br>
+  <button id="btn">Weiter</button>
+  <div id="erw-input">
+    
+  </div>
+  <div id="erw-input2">
+    
+  </div>
+  <br>
+  <div id="volumen-out">
+    
+  </div>
+  <br>
+  <br>
+  <div id="volumen-out2">
+    
+  </div>
+  <br>
+  <br>
+  <div id="prozent">
+    
+  </div>
+  <button id="berechnen">Berechnen</button>
   <script src="script.js"></script>
 </body>
 
